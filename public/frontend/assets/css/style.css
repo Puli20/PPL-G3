@@ -1,0 +1,274 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  position: relative;
+}
+
+#header img {
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+#header .content {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  color: white;
+}
+
+#header .content h1 {
+  font-weight: bolder;
+  font-size: 70px;
+  margin: 0;
+}
+
+#header .content p {
+  margin: 0;
+}
+
+.section-login {
+  position: relative;
+}
+
+.section-login img {
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.section-login .login {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section-login .login form {
+  width: 310px;
+  color: white;
+}
+
+.section-register {
+  position: relative;
+}
+
+.section-register img {
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.section-register .login {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section-register .login form {
+  width: 310px;
+  color: white;
+}
+
+.card-product {
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  -webkit-box-shadow: 0px 0px 2px #d6d6d6;
+          box-shadow: 0px 0px 2px #d6d6d6;
+}
+
+.card-product:hover {
+  -webkit-box-shadow: 0px 0px 10px #b4b4b4 !important;
+          box-shadow: 0px 0px 10px #b4b4b4 !important;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -70px;
+}
+
+.section-details-contents {
+  min-height: 100vh;
+  margin-top: -210px;
+  margin-bottom: 150px;
+}
+
+.section-details-contents .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-contents .breadcrumb .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+
+.section-details-contents .card-content {
+  border-radius: 11px;
+  padding: 30px;
+}
+
+.section-details-contents .card-content h1 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.section-details-contents .card-content h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-details-contents .card-content p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #aaaaaa;
+}
+
+.section-details-contents .card-content .features .border-left {
+  border-left: 1px solid #071c4d;
+}
+
+.section-details-contents .card-content .features img {
+  height: 45px;
+  width: 45px;
+}
+
+.section-details-contents .card-content .features .description h5,
+.section-details-contents .card-content .features .description p {
+  margin: 0;
+}
+
+.section-details-contents .card-content .features .description h5 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section-details-contents .card-content .features .description p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #b1b1b1;
+}
+
+.section-details-contents .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-contents .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-contents .gallery .xzoom-container .xactive {
+  border: 4px solid #1a4c9c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-contents .card-right {
+  border-radius: 11px 11px 0 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 30px 30px 0;
+}
+
+.section-details-contents .card-right h2 {
+  font-size: 20px;
+}
+
+.section-details-contents .card-right .trip-informations th {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-details-contents .card-right .trip-informations td {
+  font-size: 18px;
+  font-weight: 300;
+  color: #818181;
+}
+
+.section-details-contents .card-right .trip-informations-checkout td {
+  font-size: 16px;
+  font-weight: 300;
+  color: #818181;
+}
+
+.section-details-contents .card-right .trip-informations-checkout .text-blue {
+  color: #071c4d;
+  font-weight: 500;
+}
+
+.section-details-contents .card-right .trip-informations-checkout .text-orange {
+  color: #ff7e00;
+  font-weight: 500;
+}
+
+.section-details-contents .join-container .btn-join-now {
+  background-color: #ff9e53;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-contents .join-container .btn-join-now:hover {
+  background-color: #ffac6d;
+  color: #fff;
+}
+
+.section-details-contents .members .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-contents .memberss h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.section-details-contents .memberss .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.section-details-contents .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-contents .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-contents .btn-add-now {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.section-details-contents .btn-add-now:hover {
+  background-color: #1b3b86;
+  color: #fff;
+}
+
+.section-details-contents .payment-instruction {
+  font-size: 13px;
+  font-weight: lighter;
+  color: #818181;
+}
+
+.section-details-contents .payment-gateway .rekenings h3 {
+  font-size: 16px;
+  color: #071c4d;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
